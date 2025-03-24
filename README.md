@@ -26,9 +26,8 @@ https://drive.google.com/drive/folders/1izCR4YywcZrVogGyFpxoPGCNl0zSwlJQ?usp=dri
 ### 1.3 File Preparation
 
 After downloading, ensure that the following files are ready:
-
-HIV Genome FASTA: /path/to/HIV.fa
-HIV Annotation GTF: /path/to/HIV_HXB2_LXS_version_3.3.gtf
+HIV Genome FASTA: HIV.fa
+HIV Annotation GTF: HIV_HXB2_LXS_version_3.3.gtf
 
 ### 1.4 Setting up Cell Ranger
 Ensure that Cell Ranger is installed and properly set up by adding it to your environment path:
@@ -45,8 +44,11 @@ which cellranger
 Make sure the following files are available in your working directory:
 
 GRCh38 Genome FASTA: Homo_sapiens.GRCh38.fa
+
 GRCh38 Annotation GTF: Homo_sapiens.GRCh38.111.gtf
+
 HIV Genome FASTA: /path/to/HIV.fa
+
 HIV Annotation GTF: /path/to/HIV_HXB2_LXS_version_3.3.gtf
 
 ### 2.2 Building the Reference
@@ -72,13 +74,10 @@ The following is a sample of the expected output during the reference build proc
 ```vbnet
 Creating new reference folder at /path/to/reference_folder/GRCh38_and_HIV_LXS_3.3  
 ...done  
-
 Writing genome FASTA file into reference folder...  
 ...done  
-
 Indexing genome FASTA file...  
 ...done  
-
 Writing genes GTF file into reference folder...  
 ...done  
 
@@ -90,9 +89,6 @@ May 09 12:17:46 ..... finished successfully
 ...done.  
 
 >>> Reference successfully created! <<<  
-
-You can now specify this reference on the command line:  
-cellranger --transcriptome=/path/to/reference_folder/GRCh38_and_HIV_LXS_3.3 ...  
 ```
 
 
