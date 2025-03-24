@@ -47,9 +47,9 @@ GRCh38 Genome FASTA: Homo_sapiens.GRCh38.fa
 
 GRCh38 Annotation GTF: Homo_sapiens.GRCh38.111.gtf
 
-HIV Genome FASTA: /path/to/HIV.fa
+HIV Genome FASTA: HIV.fa
 
-HIV Annotation GTF: /path/to/HIV_HXB2_LXS_version_3.3.gtf
+HIV Annotation GTF: HIV_HXB2_LXS_version_3.3.gtf
 
 ### 2.2 Building the Reference
 
@@ -62,9 +62,9 @@ cellranger mkref \
   --genome=GRCh38 \  
   --fasta=Homo_sapiens.GRCh38.fa \  
   --genes=Homo_sapiens.GRCh38.111.gtf \  
-  --genome=HIV_LXS_3.3 \  
-  --fasta=/path/to/HIV.fa \  
-  --genes=/path/to/HIV_HXB2_LXS_version_3.3.gtf  
+  --genome=HIV \  
+  --fasta=HIV.fa \  
+  --genes=HIV_HXB2_LXS_version_3.3.gtf  
 ```
 
 ### 2.3 Example Output
