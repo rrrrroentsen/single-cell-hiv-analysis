@@ -95,3 +95,12 @@ May 09 12:17:46 ..... finished successfully
 
 ## 3. Conclusion
 By following this tutorial, you can successfully create a custom Cell Ranger reference genome that incorporates both the human genome and the HIV genome. Additionally, you could replace the HIV genome with a patient-specific viral sequence to achieve more precise viral transcript analysis in 10x single-cell RNA sequencing data.
+
+
+## Author Information
+This method is uploaded by Xiaosheng Liu (ORCID 0000-0003-4282-5740)
+
+## Additional Notes
+For more detailed instructions and examples, please refer to the package documentation.
+If you encounter any issues or have suggestions for improvement, please open an issue on GitHub.
+This package is provided as-is under the MIT License.
